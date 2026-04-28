@@ -1,0 +1,54 @@
+/* header.css */
+.border-bottom{
+    margin: 5px;
+}
+
+.nav-item {
+    margin-right: 1rem; /* Большой отступ для десктопных устройств */
+}
+
+.nav-item:last-child {
+    margin-right: 0; /* Убираем отступ справа для последнего элемента */
+}
+
+@media (max-width: 768px) {
+    .nav-item {
+        margin-right: 0.5rem; /* Уменьшенный отступ для мобильных устройств */
+    }
+}
+
+
+.nav-item:hover {
+    cursor: pointer;
+}
+
+.nav-item:hover .nav-link {
+    color: #0056b3;
+    background-color: #e9ecef;
+
+}
+
+
+.nav-pills .nav-link.active{
+    color: #0056b3;
+    background-color: #e9ecef;
+}
+
+.nav-link.login-button {
+    color: #fff;
+    background-color: #007bff;
+    border-radius: .25rem;
+    padding: .5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link.login-button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.logo {
+    width: 45px;
+    height: 40px;
+    margin-right: 10px;
+}

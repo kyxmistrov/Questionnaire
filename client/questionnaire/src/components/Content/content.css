@@ -1,0 +1,120 @@
+.content-background {
+    background-image: url('../../img/2header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-background h2,
+.content-background .lead {
+    margin: 0;
+}
+
+.con {
+    margin: 30px;
+}
+
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+}
+
+.nc-benefits__item {
+    border: none;
+    box-shadow: none;
+    width: 90%;
+    margin: auto;
+}
+
+@media (min-width: 768px) {
+    .nc-benefits__item {
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) {
+    .nc-benefits__item {
+        width: 60%;
+    }
+}
+
+.row {
+    margin: 10px;
+}
+
+.curs {
+    cursor: none;
+}
+
+.black-text {
+    color: #000 !important;
+}
+
+.hov:hover {
+    color: white;
+    background-color: #007bff;
+}
+
+.hov {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.hov:hover {
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.cards-container {
+    min-height: 800px; /* Установите минимальную высоту по вашему усмотрению */
+}
+
+.fixed-pagination {
+    position: relative; /* Если требуется, вы можете настроить эту позицию */
+}
+
+
+
+
+
+.icon-link svg {
+    margin-left: 8px;
+}
+
+.custom-button {
+
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #218838;
+}
+
+.custom-button span {
+    margin: 10px;
+}
+
+.create-but{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+

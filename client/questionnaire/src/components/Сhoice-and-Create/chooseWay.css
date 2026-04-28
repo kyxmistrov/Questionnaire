@@ -1,0 +1,104 @@
+.choose-way-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    margin-top: 9%;
+}
+
+.choose-way-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.choose-way {
+    border: 5px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.choose-way:hover {
+    background-color: rgba(245, 245, 245, 0.71);
+}
+
+.choose-way .img {
+    height: 150px;
+    width: 150px;
+
+    border-radius: 10px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.choose-way .img.emp {
+    background-image: url('../../img/ico-empty.png');
+}
+
+.choose-way .img.test {
+    background-image: url('../../img/ico-template.png');
+}
+
+.choose-way .title {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.choose-way .comment {
+    font-size: 18px;
+    color: #888;
+}
+
+.btn-circle {
+    border-radius: 50px;
+}
+
+.btn-green {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-green:hover {
+    background-color: #218838;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .choose-way {
+        height: 250px;
+        width: 250px;
+    }
+
+    .choose-way .img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .choose-way .title {
+        font-size: 20px;
+    }
+
+    .choose-way .comment {
+        font-size: 14px;
+    }
+}
+
+.btn-red {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-red:hover {
+    background-color: #c82333;
+    color: #dcdcdc;
+}
+

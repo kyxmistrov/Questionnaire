@@ -1,0 +1,69 @@
+/* footer.css */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    border-top: 1px solid white; /* Делаем верхнюю границу видимой */
+    margin-bottom: 0; /* Убираем отступ футера снизу */
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px; /* Увеличиваем верхний отступ для лучшего визуального разделения */
+    padding-bottom: 10px; /* Увеличиваем нижний отступ для лучшего визуального разделения */
+}
+
+.footer .text-body-secondary {
+    color: white !important;
+}
+
+.footer .nav {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer .nav li {
+    margin-right: 10px; /* Добавляем отступ между элементами списка */
+}
+
+.footer .nav li:last-child {
+    margin-right: 0; /* Убираем отступ справа у последнего элемента списка */
+}
+
+.footer .nav li a {
+    position: relative;
+    display: inline-block; /* Добавляем это свойство */
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer .nav li a svg {
+
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%); /* Центрируем иконку относительно родительского элемента */
+}
+
+
+.footer .nav li a:hover::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -12px;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer .nav li a svg {
+    vertical-align: middle;
+}

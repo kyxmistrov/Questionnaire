@@ -1,0 +1,16 @@
+
+.no-focus {
+    pointer-events: none;
+    background-color: white;
+    color: black;
+}
+
+.label-container h3{
+    text-align: center;
+    margin-bottom: -20px;
+    margin-top: 60px;
+
+}
+.no-focus:focus {
+    outline: none;
+}
