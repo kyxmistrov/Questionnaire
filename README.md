@@ -50,6 +50,20 @@ project/
 - SQL-скрипты и структура БД
 
 ---
+## Скрины
+### Главная страница
+<img width="614" height="483" alt="image" src="https://github.com/user-attachments/assets/6acff171-8536-4b75-8f0c-fe16c6b9bf5f" />
+
+### Создание анкеты
+<img width="753" height="775" alt="image" src="https://github.com/user-attachments/assets/0e1dd30e-9eb3-47bb-a0d8-677967543746" />
+
+### Панель анкет пользователя
+<img width="1840" height="547" alt="image" src="https://github.com/user-attachments/assets/07597e5a-ab99-4dbf-9901-15cc4d3973b2" />
+
+### Результаты прохождения теста
+<img width="1795" height="864" alt="image" src="https://github.com/user-attachments/assets/d10a31ac-901c-4895-ab3a-c7f636ac630f" />
+
+---
 
 ## 🚀 Запуск проекта
 
