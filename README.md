@@ -1,43 +1,40 @@
 # 📋 Questionnaire Project
 
-Веб-приложение для создания и прохождения анкет/опросов с клиент-серверной архитектурой.
+A web application for creating and completing questionnaires/surveys with a client-server architecture.
 
 ---
 
-## 📦 Структура проекта
-
-```
 project/
-├── client/                     # Frontend (React)
-│   └── questionnaire/
-│       ├── src/
-│       ├── public/
-│       ├── package.json
-│       └── Dockerfile
+├── client/ # Frontend (React)
+│ └── questionnaire/
+│ ├── src/
+│ ├── public/
+│ ├── package.json
+│ └── Dockerfile
 │
-├── server/                     # Backend (Spring Boot)
-│   └── for-quiz/
-│       ├── src/
-│       ├── pom.xml
-│       ├── mvnw
-│       └── Dockerfile
+├── server/ # Backend (Spring Boot)
+│ └── for-quiz/
+│ ├── src/
+│ ├── pom.xml
+│ ├── mvnw
+│ └── Dockerfile
 │
-├── DB/                         # База данных
-│   └── БД-postgresql.sql
+├── DB/ # Database
+│ └── БД-postgresql.sql
 │
 ├── .gitignore
 └── README.md
-```
+
 
 ---
 
-## ⚙️ Технологии
+## ⚙️ Technologies
 
 ### 🎨 Client (Frontend)
 - React
 - JavaScript
 - CSS
-- Axios (для запросов к API)
+- Axios (for API requests)
 
 ### 🧠 Server (Backend)
 - Java
@@ -47,34 +44,35 @@ project/
 
 ### 🗄 Database
 - PostgreSQL
-- SQL-скрипты и структура БД
+- SQL scripts and database schema
 
 ---
-## Скрины
-### Главная страница
+
+## 🖼 Screenshots
+
+### Home Page
 <img width="614" height="483" alt="image" src="https://github.com/user-attachments/assets/6acff171-8536-4b75-8f0c-fe16c6b9bf5f" />
 
-### Создание теста
+### Test Creation
 <img width="708" height="735" alt="image" src="https://github.com/user-attachments/assets/4a2f6e9d-89c9-443c-bf1f-f71ac11e2323" />
 
-### Панель анкет/тестов пользователя
+### User Survey/Test Dashboard
 <img width="1840" height="547" alt="image" src="https://github.com/user-attachments/assets/07597e5a-ab99-4dbf-9901-15cc4d3973b2" />
 
-### Результаты прохождения теста
+### Test Results
 <img width="1795" height="864" alt="image" src="https://github.com/user-attachments/assets/d10a31ac-901c-4895-ab3a-c7f636ac630f" />
 
 ---
 
-## 🚀 Запуск проекта
+## 🚀 Project Setup
 
 ### 1️⃣ Backend (server)
 
 ```bash
 cd server/for-quiz
 ./mvnw spring-boot:run
-```
 
-или (Windows):
+or (Windows):
 ```bash
 mvnw.cmd spring-boot:run
 ```
@@ -91,9 +89,9 @@ npm start
 
 ---
 
-### 3️⃣ База данных
+### 3️⃣ Database
 
-Импортировать файл:
+Import the file:
 
 ```
 DB/БД-postgresql.sql
@@ -103,7 +101,7 @@ DB/БД-postgresql.sql
 
 ---
 
-## 📡 Архитектура
+## 📡 Architecture
 
 ```
 [ React Client ]
@@ -115,21 +113,21 @@ DB/БД-postgresql.sql
 
 ---
 
-## 📌 Основной функционал
+## 📌 Core Features
 
-- Регистрация и авторизация пользователей
-- Создание анкет / тестов
-- Прохождение тестов
-- Сохранение результатов
-- Работа с вопросами разных типов:
-  - одиночный выбор
-  - множественный выбор
-  - текстовые ответы
-  - приоритеты
+- User registration and authentication
+- Questionnaire / test creation
+- Test participation
+- Result storage and tracking
+- Support for multiple question types:
+  - single choice
+  - multiple choice
+  - text answers
+  - priority ranking
 
 ---
 
-## 🐳 Docker (если используется)
+## 🐳 Docker (if used)
 
 ```bash
 docker-compose up --build
@@ -137,12 +135,14 @@ docker-compose up --build
 
 ---
 
-## 👨‍💻 Автор
-Игорь Кухмистров  
+## 👨‍💻 Author
+
+Igor Kukhmistrov 
 ---
 
-## 📌 Примечание
+## 📌 Notes
 
-Проект собран как монорепозиторий:
-- frontend и backend развиваются отдельно
-- общая структура в одном GitHub репозитории
+This project is structured as a monorepository:
+
+frontend and backend are developed separately
+both are stored in a single GitHub repository
