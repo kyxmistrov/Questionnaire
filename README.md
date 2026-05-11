@@ -3,7 +3,7 @@
 A web application for creating and completing questionnaires/surveys with a client-server architecture.
 
 ---
-
+```
 project/
 ├── client/ # Frontend (React)
 │ └── questionnaire/
@@ -24,8 +24,7 @@ project/
 │
 ├── .gitignore
 └── README.md
-
-
+```
 ---
 
 ## ⚙️ Technologies
