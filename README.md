@@ -54,10 +54,10 @@ project/
 ### Главная страница
 <img width="614" height="483" alt="image" src="https://github.com/user-attachments/assets/6acff171-8536-4b75-8f0c-fe16c6b9bf5f" />
 
-### Создание анкеты
-<img width="753" height="775" alt="image" src="https://github.com/user-attachments/assets/0e1dd30e-9eb3-47bb-a0d8-677967543746" />
+### Создание теста
+<img width="708" height="735" alt="image" src="https://github.com/user-attachments/assets/4a2f6e9d-89c9-443c-bf1f-f71ac11e2323" />
 
-### Панель анкет пользователя
+### Панель анкет/тестов пользователя
 <img width="1840" height="547" alt="image" src="https://github.com/user-attachments/assets/07597e5a-ab99-4dbf-9901-15cc4d3973b2" />
 
 ### Результаты прохождения теста
